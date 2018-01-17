@@ -1,0 +1,95 @@
+.logo > img {
+  height: 75px;
+}
+
+.masthead {
+  background: #ffffff;
+}
+
+.account-masthead {
+  background: #ffffff;
+}
+
+.account-masthead .account ul li {
+  border-left: none;
+}
+
+.account-masthead .account ul li a {
+  color: #212529;
+}
+
+.account-masthead .account ul li a:hover {
+  color: #3454d1;
+  background: #ffffff;
+}
+
+.masthead .nav > li > a {
+  color: #212529;
+}
+
+.masthead .navigation .nav-pills li a:hover {
+  color: #3454d1;
+  background: #ffffff;
+}
+
+.hero-unit {
+  border-radius: 0px;
+  text-align: center;
+  background-color: #9bb0c4;
+  color: #ffffff;
+}
+
+.hero-unit > .cover-content > h1 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  letter-spacing: initial;
+}
+
+.hero-unit > .cover-content > h2 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  letter-spacing: initial;
+}
+
+.btn-primary {
+  background-color: #349bba;
+  border-color: #349bba;
+}
+
+.btn {
+  background-image: none;
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: 0.25rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #16309B;
+}
+
+.btn-primary:focus {
+  background-color: #349bba;
+}
+
+.cover-content {
+    max-width: 650px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
