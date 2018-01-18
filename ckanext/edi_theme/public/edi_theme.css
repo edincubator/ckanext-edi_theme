@@ -1,5 +1,7 @@
 body {
   background: #212529;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 
 a:focus {
@@ -37,11 +39,19 @@ img:focus {
   background: #ffffff;
 }
 
+.navbar .nav > .active > a, .navbar .nav > .active > a:focus, .navbar .nav > .active > a:hover {
+  box-shadow: none;
+}
 .masthead .nav > li > a {
   color: #212529;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: .9rem;
+}
+
+.masthead .navigation .nav-pills li.active a {
+  background-color: #ffffff;
+  color: #3454d1;
 }
 
 .masthead .navigation .nav-pills li a:hover {
