@@ -1,9 +1,15 @@
+body {
+  background: #212529;
+}
+
 .logo > img {
   height: 75px;
 }
 
 .masthead {
   background: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .account-masthead {
@@ -37,6 +43,9 @@
   text-align: center;
   background-color: #9bb0c4;
   color: #ffffff;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .hero-unit > .cover-content > h1 {
@@ -53,6 +62,14 @@
   font-size: 1.25rem;
   line-height: 1.5;
   letter-spacing: initial;
+}
+
+.highlights {
+  background-color: #ffffff;
+  margin: 0px;
+  color: #000000;
+  margin-top: 0px;
+  align-content: center;
 }
 
 .btn-primary {
@@ -88,8 +105,68 @@
 }
 
 .cover-content {
-    max-width: 650px;
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
+}
+
+.edi-header {
+  max-width: 650px;
+}
+
+.site-footer {
+  background: #212529;
+}
+
+.footer-ec > table {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #868e96;
+  font-size: 1rem;
+}
+
+.thumbnail-text {
+  text-align: left;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #868e96 !important;
+  margin-bottom: 8px;
+}
+
+.thumbnails > li {
+    display: inline-block;
+    *display:inline; /* ie7 fix */
+    float: none; /* this is the part that makes it work */
+}
+
+.thumbnails {
+  margin: 0px;
+}
+
+.thumbnail {
+  padding: 0px;
+}
+
+.thumbnail > .card-body > h6 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.1;
+  margin-bottom: 0.75rem;
+  text-align: left;
+}
+
+.thumbnail > .card-body > h6 > a {
+  color: #349bba;
+}
+
+.thumbnail > .card-body > small > a {
+  color: #349bba;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: left;
 }
