@@ -2,6 +2,14 @@ body {
   background: #212529;
 }
 
+a:focus {
+  outline: none;
+}
+
+img:focus {
+  outline: none;
+}
+
 .logo > img {
   height: 75px;
 }
@@ -24,13 +32,16 @@ body {
   color: #212529;
 }
 
-.account-masthead .account ul li a:hover {
+.account-masthead .account ul li a:hover, .masthead .nav > li > a:focus {
   color: #3454d1;
   background: #ffffff;
 }
 
 .masthead .nav > li > a {
   color: #212529;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: .9rem;
 }
 
 .masthead .navigation .nav-pills li a:hover {

@@ -10,3 +10,47 @@
     {% if g.site_description %}<h2>{{ g.site_description }}</h2>{% endif %}
   {% endif %}
 {% endblock %}
+
+{% block header_site_navigation %}
+  <nav class="section navigation">
+    <ul class="nav nav-pills">
+      {% block header_site_navigation_tabs %}
+        {% block edi_navigation_tabs %}
+          {{ h.build_nav_main(
+            ('search', _('Datasets')),
+            ('organizations_index', _('Data Providers')),
+            ('group_index', _('Categories'))
+          ) }}
+          <li>
+            <a href="http://edincubator.eu/about-edi/" target="_blank">About EDI</a>
+          </li>
+          <!-- Login -->
+          {% block edi_custom_login %}
+            {% if c.userobj %}
+                  <li>
+                    <a href="{{ h.url_for(controller='user', action='read', id=c.userobj.name) }}" class="image" title="{{ _('View profile') }}">
+                      <i class="fa fa-user"></i>
+                      <span class="username">{{ c.userobj.display_name }}</span>
+                    </a>
+
+                  </li>
+                  {% set new_activities = h.new_activities() %}
+
+            {% else %}
+               <li>{% link_for _('Log in'), controller='user', action='login' %}</li>
+               {% if h.check_access('user_create') %}
+                 <li>{% link_for _('Register'), controller='user', action='register', class_='sub' %}</li>
+               {% endif %}
+            {% endif %}
+          {% endblock %}
+        {% endblock %}
+      {% endblock %}
+    </ul>
+  </nav>
+{% endblock %}
+
+{% block header_site_search %}
+{% endblock %}
+
+{% block header_account %}
+{% endblock %}
