@@ -1,7 +1,20 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 body {
-  background: #212529;
+  background: #ffffff;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+[role=main], .main {
+  background: #ffffff;
 }
 
 a:focus {
@@ -42,6 +55,13 @@ img:focus {
 .navbar .nav > .active > a, .navbar .nav > .active > a:focus, .navbar .nav > .active > a:hover {
   box-shadow: none;
 }
+
+.navbar-static-top {
+  position: sticky;
+  box-shadow: 0 2px 10px 0 rgba(25, 25, 25, 0.1);
+  margin-bottom: 5px;
+}
+
 .masthead .nav > li > a {
   color: #212529;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -51,7 +71,7 @@ img:focus {
 
 .masthead .navigation .nav-pills li.active a {
   background-color: #ffffff;
-  color: #3454d1;
+  color: #318fc6;
 }
 
 .masthead .navigation .nav-pills li a:hover {
@@ -137,6 +157,11 @@ img:focus {
 
 .site-footer {
   background: #212529;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
 }
 
 .footer-ec > table {
