@@ -30,7 +30,7 @@ img:focus {
 }
 
 .masthead {
-  background: #ffffff;
+  background: #eaeaea;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -49,7 +49,7 @@ img:focus {
 
 .account-masthead .account ul li a:hover, .masthead .nav > li > a:focus {
   color: #3454d1;
-  background: #ffffff;
+  background: #eaeaea;
 }
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:focus, .navbar .nav > .active > a:hover {
@@ -70,19 +70,19 @@ img:focus {
 }
 
 .masthead .navigation .nav-pills li.active a {
-  background-color: #ffffff;
+  background-color: #eaeaea;
   color: #318fc6;
 }
 
 .masthead .navigation .nav-pills li a:hover {
   color: #318fc6;
-  background: #ffffff;
+  background: #eaeaea;
 }
 
 .hero-unit {
   border-radius: 0px;
   text-align: center;
-  background-color: #9bb0c4;
+  background-color: #2e6688;
   color: #ffffff;
   margin-bottom: 0px;
   padding-top: 30px;
@@ -156,7 +156,7 @@ img:focus {
 }
 
 .site-footer {
-  background: #212529;
+  background: #8da1b3;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -167,7 +167,7 @@ img:focus {
 .footer-ec > table {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #868e96;
+  color: #0c0d0d;
   font-size: 1rem;
 }
 
