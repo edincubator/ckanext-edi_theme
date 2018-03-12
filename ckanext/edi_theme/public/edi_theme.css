@@ -31,8 +31,12 @@ img:focus {
 
 .masthead {
   background: #eaeaea;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.masthead .nav-collapse {
+  padding-top: 15px;
 }
 
 .account-masthead {
