@@ -1,15 +1,30 @@
 {% ckan_extends %}
 
 {% block footer_content %}
+
 <div class="footer-ec">
-  <table width="100%" border="0" cellspacing="0" cellpadding="15" bordercolor="#0000FF">
-    <tbody>
-      <tr>
-        <td width="100" style="text-align: left; vertical-align: middle; padding-right:10px"><div class=""><img src="/CC-License.png"></div></td>
-        <td width="100" style="text-align: right; vertical-align: middle; padding-right:10px"><img src="/ECflag-footer.jpg"></td>
-        <td style="text-align: center; vertical-align: middle;  padding-right:10px">EDI is co-funded by the European Union under Grant agreement number 779790</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="row">
+    <div class="span8">
+      <h2 class="title">Acknowledgments</h2>
+      <img src="/ECflag-footer.jpg">
+       <p>
+         This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 779790.
+       </p>
+      <!-- <table width="100%" border="0" cellspacing="0" cellpadding="15" bordercolor="#0000FF">
+        <tbody>
+          <tr>
+            <td width="100" style="text-align: right; vertical-align: middle; padding-right:10px"><img src="/ECflag-footer.jpg"></td>
+            <td style="text-align: center; vertical-align: middle;  padding-right:10px"> This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 779790.</td>
+          </tr>
+        </tbody>
+      </table> -->
+    </div>
+    <div class="span4">
+      <h2 class="title">Contact Us</h2>
+      <p>
+        <a href="mailto:info@edincubator.eu">info@edincubator.eu</a>
+      </p>
+    </div>
+  </div>
 </div>
 {% endblock %}

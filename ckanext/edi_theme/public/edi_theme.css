@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: #ffffff;
+  background: #8da1b3;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   position: relative;
@@ -62,7 +62,7 @@ img:focus {
 
 .navbar-static-top {
   position: sticky;
-  box-shadow: 0 2px 10px 0 rgba(25, 25, 25, 0.1);
+  box-shadow: 0 2px 10px 0 rgb(255, 255, 255);
   margin-bottom: 5px;
 }
 
@@ -161,18 +161,22 @@ img:focus {
 
 .site-footer {
   background: #8da1b3;
-  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
 }
 
-.footer-ec > table {
+.site-footer a {
+  color: #0c0d0d;
+}
+
+.footer-ec > .row {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #0c0d0d;
   font-size: 1rem;
+  line-height: 1.7em;
 }
 
 .thumbnail-text {
