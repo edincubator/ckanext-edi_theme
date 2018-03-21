@@ -1,0 +1,12 @@
+{% ckan_extends %}
+
+{% block subtitle %}{{ c.group_dict.display_name }} - {{ _('Data Providers') }}{% endblock %}
+
+{% block breadcrumb_content %}
+  <li>
+    <a href="/organization">Data Providers</a>
+  </li>
+  <li class="active">
+    {% link_for c.group_dict.display_name|truncate(35), controller='organization', action='read', id=c.group_dict.name %}
+  </li>
+{% endblock %}
