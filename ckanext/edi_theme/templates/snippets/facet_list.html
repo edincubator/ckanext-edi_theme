@@ -7,6 +7,9 @@
     {% if title == 'Organizations' %}
       {% set title = 'Data Providers' %}
     {% endif %}
+    {% if title == 'Groups' %}
+      {% set title = 'Categories' %}
+    {% endif %}
     {{ title }}
   </h2>
 {% endblock %}
